@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 
 RUN apt-get update && apt-get upgrade
-RUN apt-get install -y wget python git
+RUN apt-get -y install wget python git
 
 RUN cd /opt && wget https://nodejs.org/dist/v5.1.0/node-v5.1.0-linux-x64.tar.gz
 RUN tar -xzf node-v5.1.0-linux-x64.tar.gz
