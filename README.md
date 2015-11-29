@@ -1,2 +1,2 @@
 # MyNodeProject
-Docker node project.
+This is my first docker project, use nodejs.
